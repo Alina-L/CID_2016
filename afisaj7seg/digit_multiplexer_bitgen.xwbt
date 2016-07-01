@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/student/afisaj7seg/digit_multiplexer.ncd
+OUTFILE=/home/student/afisaj7seg/digit_multiplexer.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/student/afisaj7seg
+LICENSE=WebPack
+USER_INFO=202860492_0_0_807

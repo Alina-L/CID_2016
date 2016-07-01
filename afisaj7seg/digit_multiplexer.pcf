@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jul 01 12:41:38 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "out_seg<1>" LOCATE = SITE "H14" LEVEL 1;
+COMP "out_seg<2>" LOCATE = SITE "J17" LEVEL 1;
+COMP "out_seg<3>" LOCATE = SITE "G14" LEVEL 1;
+COMP "out_seg<4>" LOCATE = SITE "D16" LEVEL 1;
+COMP "out_seg<5>" LOCATE = SITE "D17" LEVEL 1;
+COMP "out_seg<6>" LOCATE = SITE "F18" LEVEL 1;
+COMP "out_seg<7>" LOCATE = SITE "L18" LEVEL 1;
+COMP "out_sel<0>" LOCATE = SITE "F17" LEVEL 1;
+COMP "out_sel<1>" LOCATE = SITE "H17" LEVEL 1;
+COMP "out_sel<2>" LOCATE = SITE "C18" LEVEL 1;
+COMP "out_sel<3>" LOCATE = SITE "F15" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "K17" LEVEL 1;
+COMP "clock" LOCATE = SITE "B8" LEVEL 1;
+COMP "sw<4>" LOCATE = SITE "L14" LEVEL 1;
+COMP "sw<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "sw<6>" LOCATE = SITE "N17" LEVEL 1;
+COMP "sw<7>" LOCATE = SITE "R17" LEVEL 1;
+COMP "reset" LOCATE = SITE "B18" LEVEL 1;
+COMP "out_seg<0>" LOCATE = SITE "C17" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

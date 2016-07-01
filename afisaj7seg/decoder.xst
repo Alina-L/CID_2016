@@ -1,0 +1,5 @@
+set -tmpdir "/home/student/afisaj7seg/xst/projnav.tmp"
+set -xsthdpdir "/home/student/afisaj7seg/xst"
+elaborate
+-ifn decoder.prj
+-ifmt mixed
