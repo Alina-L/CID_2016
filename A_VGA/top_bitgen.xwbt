@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/student/VGA_noi/VGA_try merge/VGA-master/A_VGA/top.ncd
+OUTFILE=/home/student/VGA_noi/VGA_try merge/VGA-master/A_VGA/top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/home/student/VGA_noi/VGA_try merge/VGA-master/A_VGA
+LICENSE=WebPack
+USER_INFO=202860492_0_0_807
