@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+DCM_D instance_name (
+    .CLKIN_IN(CLKIN_IN), 
+    .CLKFX_OUT(CLKFX_OUT)
+    );
+
+

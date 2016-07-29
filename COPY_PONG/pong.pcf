@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Jul 29 14:30:35 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "vga_R<0>" LOCATE = SITE "R8" LEVEL 1;
+COMP "vga_R<1>" LOCATE = SITE "T8" LEVEL 1;
+COMP "vga_R<2>" LOCATE = SITE "R9" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "vga_G<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "vga_G<1>" LOCATE = SITE "P8" LEVEL 1;
+COMP "vga_G<2>" LOCATE = SITE "P6" LEVEL 1;
+COMP "vga_h_sync" LOCATE = SITE "T4" LEVEL 1;
+COMP "vga_B<0>" LOCATE = SITE "U5" LEVEL 1;
+COMP "vga_B<1>" LOCATE = SITE "U4" LEVEL 1;
+COMP "vga_v_sync" LOCATE = SITE "U3" LEVEL 1;
+SCHEMATIC END;
+
